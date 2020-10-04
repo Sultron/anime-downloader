@@ -56,7 +56,7 @@ class GogoAnime(Anime, sitename='gogoanime'):
 
     """
     sitename = 'gogoanime'
-    QUALITIES = ['360p', '480p', '720p', '1080p']
+    QUALITIES = ('360p', '480p', '720p', '1080p')
     _base_url = 'https://gogoanime.io/'
     _episode_list_url = 'https://gogoanime.io/load-list-episode'
     _search_url = 'https://gogoanime.io/search.html'
