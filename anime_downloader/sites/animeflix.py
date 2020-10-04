@@ -19,7 +19,7 @@ class AnimeFlix(Anime, sitename='animeflix'):
     anime_url = 'https://animeflix.io/shows'
     episodeList_url = 'https://animeflix.io/api/anime-schema'
     meta_url = 'https://animeflix.io/api/anime/detail'
-    QUALITIES = ['360p', '480p', '720p', '1080p']
+    QUALITIES = ('360p', '480p', '720p', '1080p')
 
     @classmethod
     def search(cls, query):
